@@ -1,0 +1,19 @@
+.content-to-show{
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.content-to-show.show{
+    opacity: 1;
+    transform:translateY(0)
+}
+
+input[type=text]{
+    width:80%;
+    border: none;
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display:inline-block;
+    border-radius: 5px;
+}
